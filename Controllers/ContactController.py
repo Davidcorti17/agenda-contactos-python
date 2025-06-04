@@ -3,7 +3,7 @@ from Model.Repository.ContactRepository import ContactRepository
 
 
 class ContactController:
-    # Este es un método para obtener contactos
+    # Este es un método para obtener contactos 
     def get_contacts_by_user(self, username):
         contact_repository = ContactRepository()
         contacts = contact_repository.get_contacts_by_user(username)
